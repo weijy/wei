@@ -4,8 +4,26 @@
 {% include head.html %}
 
 <body>
-    {% include sidebar.html %}
-    {{ content }}
+    <div class="absolute top-1 left">
+        <a href="/" class="bg-white ph3 pt3 pb2 ba0 b">WJ</a>
+    </div>
+    <div class="hero" style="background-image: url(/wei/images/posts/messi.jpg);">
+        <div class="pv6-ns pa5 tl-ns tc">
+            <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 bg-white">
+                {{ page.title }}
+            </h1>
+        </div>
+    </div>
+
+    <article class="f4 lh-copy pr6-l pl6-l">
+        <div class="fl w-70-l pa4 mb6">
+            {{ content }}
+        </div>
+        {% include sidebar.html %}
+
 </body>
+<script>
+    balanceText();
+</script>
 
 </html>
