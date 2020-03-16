@@ -1,5 +1,6 @@
 ---
 layout: default
+image: /images/front.jpg
 ---
 
 <ul class="list pa0">

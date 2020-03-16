@@ -12,14 +12,14 @@
     <meta property="og:title" content="{{ site.name }}" />
 
 
-    <meta property="og:image" content="{{ /images/{{ page.image }} }} | relative_url }}"/>
+    <meta property="og:image" content="{{  page.image | relative_url }}"/>
 
 
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <link rel="stylesheet" href="//unpkg.com/tachyons@4.7.0/css/tachyons.min.css" />
-    <link rel="stylesheet" href={{ "/css/styles.css" | relative_url}} type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href={{ "/css/style.css" | relative_url}} type="text/css" media="screen, projection" />
     <link rel="stylesheet" href={{ "/webfonts/ss-social.css" | relative_url }} type="text/css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/balance-text/3.0.0/balancetext.min.js"></script>
 
