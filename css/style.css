@@ -138,7 +138,8 @@ blockquote p:last-child {
 
 .hero {
     background-position: center center;
-    background-size: cover
+    background-size: cover;
+    min-height: 400px
 }
 
 .sidebar {
