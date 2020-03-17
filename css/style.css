@@ -111,8 +111,8 @@ code {
 blockquote {
     border-left: 3px solid #0151ba;
     margin: 0;
-    padding: 1rem 1.25rem;
-    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
     color: #0151ba
 }
 
@@ -161,7 +161,7 @@ nav a:hover {
     margin-top: 0.1rem;
     font-size: 1rem;
     background-color: #eee;
-    padding: 1rem
+    padding: 0.5rem 1rem
 }
 
 .highlight {
