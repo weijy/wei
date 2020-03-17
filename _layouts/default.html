@@ -4,9 +4,11 @@
 {% include head.html %}
 
 <body>
+    {% if page.url != "index" %}
     <div class="absolute top-1 left">
         <a href="/" class="bg-white ph3 pt3 pb2 ba0 b">WJ</a>
     </div>
+    {% endif %}
     {% if page.image %}
         <div class="hero" style="background-image: url({{ page.image | relative_url }});">
             {% if page.title %}
