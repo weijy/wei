@@ -4,7 +4,7 @@ image: https://wx3.sinaimg.cn/mw690/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
 title: 喂鲸鱼
 ---
 
->{{ site. summer }}
+> {{ site. summer }}
 <hr >
 {% assign note = site.notes[0] %}
 <div class="aside">

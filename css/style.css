@@ -69,6 +69,10 @@ a.no-slide:hover {
     color: #7ef1f9
 }
 
+a.no-border {
+    border-bottom: none
+}
+
 @media (min-width: 30em) {
     h1.f-headline-ns {
         font-size: 2rem
