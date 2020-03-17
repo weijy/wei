@@ -120,7 +120,7 @@ code {
 blockquote {
     border-left: 3px solid #0151ba;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     font-size: 1.2rem;
     color: #0151ba
 }
@@ -165,10 +165,11 @@ nav a:hover {
 
 .aside {
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 10px 0;
     font-size: 1rem;
     background-color: #eee;
-    padding: 0.1rem 1rem
+    padding: 0.5rem 1rem;
+    line-height: 1;
 }
 
 .highlight {
