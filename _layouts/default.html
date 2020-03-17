@@ -7,20 +7,28 @@
     <div class="absolute top-1 left">
         <a href="/" class="bg-white ph3 pt3 pb2 ba0 b">WJ</a>
     </div>
-    <div class="hero" style="background-image: url({{ page.image | relative_url }});">
-        <div class="pv6-ns pa5 tl-ns tc">
-            <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 bg-white">
-                {{ page.title }}
-            </h1>
+    {% if page.image %}
+        <div class="hero" style="background-image: url({{ page.image | relative_url }});">
+            {% if page.title %}
+            <div class="pv6-ns pa5 tl-ns tc">
+                <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 bg-white">
+                    {{ page.title }}
+                </h1>
+            </div>
+            {% endif% }
         </div>
-    </div>
+    {% else %}
+        <h1 class="center w-80 f-headline-ns f3 lh-title db ph4 pv2 bg-primary white">
+            {{ page.title }}
+        </h1>
+    {% endif %}
 
-    <article class="f4 lh-copy pr6-l pl6-l">
-        <div class="fl w-70-l pa4 mb6">
-            {{ content }}
-        </div>
-        {% include sidebar.html %}
-
+        <article class="f4 lh-copy pr6-l pl6-l">
+            <div class="fl w-70-l pa4 mb6">
+                {{ content }}
+            </div>
+            {% include sidebar.html %}
+        </article>
 </body>
 <script>
     balanceText();
