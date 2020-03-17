@@ -1,6 +1,7 @@
 ---
 layout: default
 image: https://wx3.sinaimg.cn/mw690/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
+title: 长话短说
 ---
 {% for note in site.notes reversed %}
 <div class="aside" id="date-{{ note.date | date: "%Y-%m-%d %H:%M" }}{{ note.slug }}">
