@@ -4,11 +4,6 @@
 {% include head.html %}
 
 <body>
-    {% if page.path != 'index.html' %}
-    <div class="logo">
-        <a href="/" class="whale">W</a>
-    </div>
-    {% endif %}
     {% if page.image %}
         <div class="hero" style="background-image: url({{ page.image | relative_url }});">
             <div class="pv6-ns pa5 tl-ns tc">
