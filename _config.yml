@@ -1,7 +1,8 @@
-name: Wei's Notes
+name: 喂鲸鱼
 author: Wei Jingyu
 description: Just some notes.
 collections:
-  - notes
+  notes:
+    output: true
 
 summer: In the depths of winter I finally learned there was in me an invincible summer.
