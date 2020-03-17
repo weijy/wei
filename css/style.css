@@ -131,9 +131,6 @@ blockquote p:last-child {
     margin-bottom: 0
 }
 
-.content img {
-    margin: 1.5rem 0
-}
 
 .hero {
     background-position: center center;
@@ -158,10 +155,10 @@ nav a:hover {
 }
 
 .aside {
-    margin-top: 0.1rem;
+    margin-top: 1rem;
     font-size: 1rem;
     background-color: #eee;
-    padding: 0.5rem 1rem
+    padding: 0.1rem 1rem
 }
 
 .highlight {

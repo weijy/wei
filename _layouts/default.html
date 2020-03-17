@@ -7,7 +7,7 @@
     <div class="absolute top-1 left">
         <a href="/" class="bg-white ph3 pt3 pb2 ba0 b">WJ</a>
     </div>
-    {% if page.image != null %}
+    {% if page.image %}
         <div class="hero" style="background-image: url({{ page.image | relative_url }});">
             {% if page.title %}
                 <div class="pv6-ns pa5 tl-ns tc">
@@ -15,7 +15,7 @@
                         {{ page.title }}
                     </h1>
                 </div>
-            {% endif% }
+            {% endif %}
         </div>
     {% else %}
         <h1 class="center w-80 f-headline-ns f3 lh-title db ph4 pv2 bg-primary white">
