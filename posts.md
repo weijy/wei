@@ -1,7 +1,6 @@
 ---
 layout: default
 image: /images/front.jpg
-title: 短话长说
 ---
 
 <ul class="list pa0">
