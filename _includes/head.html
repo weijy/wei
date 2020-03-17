@@ -1,15 +1,16 @@
 <head>
     <title>
         {% if page.title %}
-          {{ page.title }} &ndash;
+          {{ page.title }}
+        {% else %}
+          {{ site.name }}
         {% endif %}
-        {{ site.name }}
     </title>
 
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{{ site.description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="{{ site.name }}" />
+    <meta property="og:title" content="{{ page.title }}" />
 
 
     <meta property="og:image" content="{{  page.image | relative_url }}"/>
@@ -20,7 +21,6 @@
 
     <link rel="stylesheet" href="//unpkg.com/tachyons@4.7.0/css/tachyons.min.css" />
     <link rel="stylesheet" href={{ "/css/style.css" | relative_url}} type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href={{ "/webfonts/ss-social.css" | relative_url }} type="text/css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/balance-text/3.0.0/balancetext.min.js"></script>
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
