@@ -2,6 +2,7 @@
 layout: default
 image: /images/front.jpg
 title: 短话长说
+title-hide: true
 ---
 
 <ul class="list pa0">

@@ -24,6 +24,11 @@
     color: #7ef1f9
 }
 
+.none-display {
+    color: transparent;
+    background-color: transparent;
+}
+
 html, body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif
 }
