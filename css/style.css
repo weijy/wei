@@ -112,7 +112,7 @@ blockquote {
     border-left: 3px solid #0151ba;
     margin: 0;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #0151ba
 }
 
@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .aside {
-    margin-top: 1rem;
+    margin-top: 20px;
     font-size: 1rem;
     background-color: #eee;
     padding: 0.1rem 1rem

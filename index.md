@@ -11,10 +11,7 @@ title: 喂鲸鱼
   <figcaption>卓别林第一遇见海伦凯勒</figcaption>
 </figure>
 {% assign note = site.notes[0] %}
-<div class="tweeter-tweet">
-  <div class="date">最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</div>
+<div class="aside">
+  <small>最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</small>
   {{ note.content | markdownify }}
 </div>
-<ul class="terminal">
-  <li><a href="/suisuinian">More>></a></li>
-</ul>
