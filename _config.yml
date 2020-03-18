@@ -2,6 +2,7 @@ name: 喂鲸鱼 🐳
 author: Wei Jingyu
 description: Just some notes.
 permalink: "/posts/:title"
+background: http://wx3.sinaimg.cn/large/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
 collections:
   notes:
     output: true
