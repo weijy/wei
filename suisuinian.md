@@ -1,6 +1,6 @@
 ---
 layout: page
-image: {{ site.background }}
+image: http://wx3.sinaimg.cn/large/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
 title: 长话短说
 title-hide: true
 ---
