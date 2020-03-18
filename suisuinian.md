@@ -1,11 +1,11 @@
 ---
 layout: page
-image: http://wx3.sinaimg.cn/large/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
+image: http://wx1.sinaimg.cn/large/708e9e51ly1gcy0cyckswj21hc0u0n66.jpg
 title: 长话短说
 title-hide: true
 ---
 {% for note in site.notes reversed %}
-<div class="aside" id="date-{{ note.date | date: "%Y-%m-%d %H:%M" }}{{ note.slug }}">
+<div class="note" id="date-{{ note.date | date: "%Y-%m-%d %H:%M" }}{{ note.slug }}">
   <div class="date">
     <date>
       <small>
