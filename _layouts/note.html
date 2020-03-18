@@ -2,13 +2,36 @@
 layout: default
 ---
 
-<article class="f4 lh-copy pr6-l pl6-l">
-    <div class="w-70-l pa4 mb6">
-        <div class="dib f6 pv1 mt3 mb3 grey">
-            {{ note.date}}
-        </div>        
-        <div class="note">
-            {{ content }}
+
+
+<!DOCTYPE html>
+<html lang="zh">
+
+{% include head.html %}
+
+<body>
+    <div class="hero" style="background-image: url(https://wx1.sinaimg.cn/large/708e9e51ly1gcy0cyckswj21hc0u0n66.jpg);">
+        <div class="pv6-ns pa5 tl-ns tc">
+            <h1 class="f-headline-ns f3 lh-title balance-text dib ph4 pv2 none-display">
+                碎碎念
+            </h1>
         </div>
     </div>
-</article>
+    
+    
+    <article class="f4 lh-copy pr6-l pl6-l">
+        <div class="w-70-l pa4 mb6">
+            <div class="dib f6 pv1 mt3 mb3 grey">
+                {{ page.date | date: "%Y-%m-%d %H:%M" }}
+            </div>        
+            <div class="note">
+                {{ content }}
+            </div>
+        </div>
+    </article>
+</body>
+<script>
+    balanceText();
+</script>
+
+</html>
