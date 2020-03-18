@@ -5,6 +5,6 @@ permalink: "/posts/:title"
 collections:
   notes:
     output: true
-    permalink: "/:name/:slug"
+    permalink: "/notes/:name"
 
 summer: In the depths of winter I finally learned there was in me an invincible summer.
