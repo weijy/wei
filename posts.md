@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 image: /images/front.jpg
 title: 短话长说
 title-hide: true

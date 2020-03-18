@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 image: https://wx3.sinaimg.cn/mw690/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
 title: 长话短说
 title-hide: true

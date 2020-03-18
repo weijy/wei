@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 title-hide: true
 image: https://wx3.sinaimg.cn/mw690/708e9e51ly1gcuvwmvw45j21jk0rswn6.jpg
