@@ -19,7 +19,7 @@
                 {{ page.date | date: "%Y-%m-%d %H:%M" }}
             </div>        
             <div class="note">
-                {{ content }}
+                {{ content | markdownify }}
             </div>
         </div>
     </article>
