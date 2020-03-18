@@ -1,10 +1,10 @@
 name: 喂鲸鱼 🐳
 author: Wei Jingyu
 description: Just some notes.
-permalink: "/:title"
+permalink: "/posts/:title"
 collections:
   notes:
     output: true
-    permalink: "/:slug"
+    permalink: "/:name/:slug"
 
 summer: In the depths of winter I finally learned there was in me an invincible summer.
